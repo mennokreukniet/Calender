@@ -17,7 +17,7 @@
 
         ?><h2><?php echo $month['day']; ?> </h2><?php
         person($month['id'], $month['person'], $month['year'], $month['day'], $month['month']);
-      
+
         $prevmonth = $month['month_id'];
         $prevday = $month['day'];}}
   else{
@@ -30,5 +30,6 @@
 <?php 
  endforeach;
 ?>  
+  <p><a href="add.php">+ Toevoegen</a></p>
 </body>
 </html>
