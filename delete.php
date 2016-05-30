@@ -5,8 +5,8 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" href="main.css">
 </head>
-<link rel="stylesheet" href="main.css">
 <body>
 	<h1>Verjaardag verwijderen</h1>
 <p>Weet je zeker dat je de verjaardag van <?php echo $birthday['person']; ?> op <?php echo $birthday['day'];?> <?php echo $birthday['month']; ?> wilt verwijderen?</p>
